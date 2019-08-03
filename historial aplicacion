@@ -1,0 +1,72 @@
+81  pwd
+   82  mkdir mern
+   83  cd mern/
+   84  npm init -y
+   85  ls
+   86  npm config list
+   87  ls
+   88  mkdir src
+   89  cd src
+   90  touch index.js
+   91  node index.js 
+   92  cd ..
+   93  ls
+   94  npm install nodemon --save-dev
+   95  npm install nodemon --save-dev
+   96  cd src/
+   97  node index.js 
+   98  node index.js 
+   99  node index.js 
+  100  node index.js 
+  101  node index.js 
+  102  npm start
+  103  npm install @babel/core @babel/node --save-dev
+  104  npm install @babel/preset-env --save-dev
+  105  cd ..
+  106  touch .babelrc
+  107  ls
+  108  ls -l
+  109  ls -la
+  110  cat .babelrc 
+  111  nano .babelrc 
+  112  cat .babelrc 
+  113  touch .env
+  114  nano .env 
+  115  cat .env 
+  116  npm install dotenv --save
+  117  cd mern/
+  118  ls
+  119  ls -la
+  120  npm install express
+  121  npm install cors
+  122  npm install cors
+  123  nano .env 
+  124  cat .env 
+  125  nano .env 
+  126  cat .env 
+  127  nano .env 
+  128  nano .env 
+  129  nano .env 
+  130  curl
+  131  curl http://localhost:3000
+  132  curl -X POST http://localhost:3000
+  133  curl -X PUT http://localhost:3000
+  134  curl -X PUT http://localhost:3000/users/
+  135  curl -X PUT http://localhost:3000/users/1
+  136  curl -X PUT http://localhost:3000/users/2
+  137  curl -X DELETE  http://localhost:3000/users/2
+  138  npm install body-parser
+  139  curl -X POST    -H  "Content-type:application/json"  http://localhost:3000/messages -d '{"id":3,"text":"mensaje 3"}'
+  140  curl http://localhost:3000/messages
+  141  curl -X POST    -H  "Content-type:application/json"  http://localhost:3000/messages -d '{"id":4,"text":"mensaje 4"}'
+  142  curl http://localhost:3000/messages
+  143  clear
+  144  mkdir models
+  145  ls
+  146  cd models/
+  147  touch index.js
+  148  nano index.js 
+  149  cat index.js 
+  150  cat index.js 
+  151  curl -X POST    -H  "Content-type:application/json"  http://localhost:3000/messages -d '{"id":4,"text":"mensaje 4"}'
+  152  curl -X POST    -H  "Content-type:application/json"  http://localhost:3000/messages -d '{"id":5,"text":"mensaje 4"}'
